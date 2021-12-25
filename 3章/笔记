@@ -1,0 +1,6 @@
+前缀
+flexbox是css3中的属性，所以为了兼容各种浏览器需要添加各种浏览器对应的前缀，一下提供自动加前缀的方法：
+
+1.使用智能的IDE,如：webstorm，它能够自动添加前缀
+2.使用compass
+3.使用Autoprefixer （https://github.com/postcss/autoprefixer）

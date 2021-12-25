@@ -1,0 +1,76 @@
+html,body{padding:0;margin: 0;}
+/* 1.百分比弹性布局 */
+        /* .wrap{
+            max-width: 1400px;
+            margin:0 auto;}
+        .header{width:100%;height:130px;
+                background-color: gray;}
+        .wrapMiddle{width:100%;font-size:0;}
+        .left{width:20%;height:625px;
+            background-color: green;
+            display:inline-block}
+        .middle{width:70%;height:625px;
+            background-color:hotpink;
+            display:inline-block}
+        .right{width:10%;height:625px;
+            background-color: indianred;
+            display:inline-block}
+            .footer{width:100%;height:200px;
+                background-color:indigo}
+            */
+/* 2.偏移 */
+        /* .menu{font-size: 1rem;
+            min-height:2.75rem;
+            background-color: gray;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content:center; */
+            /* padding:0 1rem;
+        }
+        @media (min-width:30rem){.menu{flex-direction:row;}}
+            .lastItem,.listItem{
+                color: indianred;
+                text-decoration:none;
+            }
+            @media (min-width:30rem){
+                .listItem{margin-right:1rem;}
+                .lastItem{margin-left:auto;}
+        }
+        @media (min-width: 31.25em) {
+            .ListItem {
+                margin-right: 1rem;
+            }
+            .LastItem {
+                margin-left: auto;
+            } 
+} */
+/* 3.行内伸缩 */
+.wrap{background-color: lemonchiffon;
+    display:flex;flex-direction:column}
+    .item{display:flex;
+        min-height:6rem;padding:1rem;
+        align-items:center;justify-content:space-around}
+        .header{background-color: lightblue;}
+        .side1{background-color: lightcoral;}
+        .side2{background-color: rgb(196, 196, 15);}
+        .content{background-color: lightgreen;}
+        .footer{background-color: rgb(194, 96, 57);}
+
+@media (min-width:30rem){
+    .wrap{flex-flow:row wrap}
+    .header{width:100%}
+    .content{flex:1;order:3}
+    .side1{width: 150px;order:2}
+    .side2{width: 150px;order:4}
+    .footer{width:100%;order:5}
+}
+
+
+
+
+
+
+
+
+
