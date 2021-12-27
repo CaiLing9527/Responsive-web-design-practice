@@ -1,0 +1,19 @@
+.bigBox{
+width: 400px;height: 400px;
+margin: 200px auto;
+background-color: chocolate;
+border:1px solid royalblue;
+}
+.bigBox:hover{animation: change 5s; 
+}
+@keyframes change {
+    10%{
+        background-color: skyblue;
+    }
+    50%{
+        background-color: rebeccapurple;
+    }
+    100%{
+        background-color: green;
+    }
+}
